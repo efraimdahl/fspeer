@@ -104,6 +104,12 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
       ),
+      bottomNavigationBar: BottomNavigationBar(items: const [
+        BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
+        BottomNavigationBarItem(
+            icon: Icon(Icons.lock_clock), label: "Check In"),
+        BottomNavigationBarItem(icon: Icon(Icons.edit), label: "Time Table"),
+      ]),
     );
   }
 }
